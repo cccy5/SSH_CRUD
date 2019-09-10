@@ -10,5 +10,11 @@
     <typeAliases>
         <package name="com.cy.dao"></package>
     </typeAliases>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--分月参数合理化-->
+            <property name="reasonable" value="true"></property>
 
+        </plugin>
+    </plugins>
 </configuration>

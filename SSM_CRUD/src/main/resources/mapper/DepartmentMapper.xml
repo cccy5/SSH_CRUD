@@ -76,7 +76,7 @@
     dept_id, dept_name
   </sql>
 
-
+  <!---->
   <select id="selectByExample" parameterType="com.cy.entity.DepartmentExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
